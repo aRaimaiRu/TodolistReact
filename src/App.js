@@ -7,7 +7,7 @@ function App() {
   const [Input, setInput] = useState("13456");
   const [list, setList] = useState([
     { ticked: false, data: "testdataa" },
-    { ticked: false, data: "testdata3" },
+    { ticked: false, data: "testDelete" },
   ]);
 
   const HandleDelete = (xidx) => () => {
